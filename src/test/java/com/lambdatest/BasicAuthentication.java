@@ -1,0 +1,10 @@
+ChromeOptions browserOptions = new ChromeOptions();
+browserOptions.setPlatformName("Windows 10");
+browserOptions.setBrowserVersion("131");
+HashMap<String, Object> ltOptions = new HashMap<String, Object>();
+ltOptions.put("username", "dhiren.parmar");
+ltOptions.put("accessKey", "yn9q5EtKBw6sw4GBiyIPfTyFhoAWdB1Mn3BxnNbUSu1juUX19p");
+ltOptions.put("project", "Untitled");
+ltOptions.put("selenium_version", "4.0.0");
+ltOptions.put("w3c", true);
+browserOptions.setCapability("LT:Options", ltOptions);
